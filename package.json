@@ -1,0 +1,19 @@
+{
+  "name": "browserify-regression-tests",
+  "version": "0.0.0",
+  "description": "browserify regression tests",
+  "scripts": {
+    "test": "tap *.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zertosh/browserify-regression-tests"
+  },
+  "author": "Andres Suarez <zertosh@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "browserify": "^10.2.0",
+    "concat-stream": "^1.4.8",
+    "tap": "^1.0.4"
+  }
+}
